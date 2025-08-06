@@ -4,6 +4,10 @@
   height: 60px;
 }
 
+body {
+  background-color: #680000;
+  scrollbar-color: #680000;
+}
 .sticky {
   position: fixed;
   top: 0;
@@ -144,6 +148,13 @@
   word-break: break-word;
 }
 
+.menu-item-desc {
+  font-family: 'Kanit', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  word-break: break-word;
+}
+
 .insta-promo {
   font-family: 'Mochiy Pop P One', sans-serif;
   color: white;
@@ -177,7 +188,7 @@
   font-family: 'Mochiy Pop P One', sans-serif;
   font-size: 14px;
   line-height: 22px;
-  color: white;
+  color: white !important;
   font-weight: 100;
   text-decoration: none;
 }
@@ -281,4 +292,136 @@
 .theContainer img {
   max-width: 100%;
   max-height: 100%;
+}
+
+.my-katsu-navbar {
+  background-color: #311E1E !important; /* Your desired dark brown color */
+}
+
+.navbar-link-item-text {
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 14px !important;
+  line-height: 22px;
+  color: white !important;
+  font-weight: 100;
+  text-decoration: none;
+  padding-right: 2rem !important;
+}
+
+.about-container {
+  background-color: #680000;
+  min-height: 100vh
+}
+
+.homepage-container {
+  background-color: #680000;
+  min-height: 110vh;
+}
+
+.menu-container {
+  align-items: left;
+  justify-content: space-between;
+}
+
+.order-button {
+  background: #FF9D2D !important;
+  color: #311E1E !important;
+  font-family: 'Mochiy Pop P One', sans-serif !important;
+  padding: 0px 12px 0px 12px !important;
+  border: none !important;
+  border-radius: 15px !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  line-height: 40px !important;
+  text-align: center !important;
+  height: 40px !important;
+  width: 200px;
+}
+
+.menu-box {
+  background: #FFFFFF !important;
+  border-radius: 40px 0 40px 40px !important;
+  height: 150px;
+  width: 85%;
+}  
+
+.tonkatsu-img {
+  width: 400px; /* Set equal width and height */
+  height: 400px;
+  border-radius: 40%; /* Makes it a circle */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.menu-img {
+  height: 90%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-logo-img {
+  width: 60%;
+}
+
+.footer-payment-img {
+  width: 60%;
+  padding-bottom: 10px;
+}
+
+.menu-paragraph {
+  color: black;
+  width: 60%;
+}
+
+.partial-divider {
+  border-bottom: 1px solid #FFFFFF;
+  width: 90% !important;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-divider {
+  width: 1px;
+  height: 55px;
+  background-color: white;
+}
+
+.footer-kingpin-katsu {
+  color: white;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.footer-line {
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-wrapper {
+  display: inline-flex; /* Use inline-flex to align the icon with text */
+  align-items: center;  /* Vertically center the icon with the text */
+  margin: 0 5px;        /* Add some space around the icon */
+}
+
+.social-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.contact-form-placeholder {
+  color: #8C7A7A;
+  font-family: 'Kanit', sans-serif;
+  font-style: light !important;
 }
