@@ -38,15 +38,12 @@ function ContactForm() {
         <Form.Group className="mb-3" controlId="formName">
           <Form.Control className="contact-form-placeholder" type="text" placeholder="Full Name *" name="user_name" required />
         </Form.Group>
-
         <Form.Group className="mb-3" controlId="formEmail">
           <Form.Control className="contact-form-placeholder" type="email" placeholder="Email *" name="user_email" required />
         </Form.Group>
-
         <Form.Group className="mb-3" controlId="formMessage">
           <Form.Control className="contact-form-placeholder" as="textarea" rows={4} placeholder="Message *" name="user_message" required />
         </Form.Group>
-
         {status === 'success' && (
           <Alert variant="success" className="mt-3">
             Thank you! Your message has been sent successfully.
@@ -57,7 +54,7 @@ function ContactForm() {
             Something went wrong. Please try again later.
           </Alert>
         )}
-        <p className='front-page-paragraph'>You may receive marketing and promotional materials. Contact us for our privacy practices.</p>
+        <p className='homepage-paragraph'>You may receive marketing and promotional materials. Contact us for our privacy practices.</p>
         <Button className='order-button' type="submit" disabled={status === 'pending'}>
           {status === 'pending' ? 'Sending...' : 'SEND MESSAGE'}
         </Button>

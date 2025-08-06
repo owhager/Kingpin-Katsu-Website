@@ -7,9 +7,6 @@ import Footer from './Footer';
 import '../../katsu.css'
 
 export default function Homepage() {
-    function handleOrder() {
-        window.location.href = 'https://kingpin-katsu.square.site/s/order'; 
-    }
     return <Container fluid className='homepage-container'>
     <Row className="align-items-center" style={{paddingTop: 50}}>
     <Col md={1}></Col>    
@@ -17,8 +14,9 @@ export default function Homepage() {
         <Image className='tonkatsu-img' src={tonkatsuImage} alt="A picture of tonkatsu curry" fluid />
         <h1 style={{paddingTop: '25px'}} className='front-page-title'>TONKATSU CURRY</h1>
         <div style={{textAlign: 'left', paddingTop: '10px', width: '80%', display: 'inline-block'}}>
-        <p className='front-page-paragraph'>Pair flavorful pork tenderloin katsu with  quintessential Japanese curry
-             made using a rich vegetable broth and warm curry spices. There’s a reason this combo is so common in Japan!</p>
+        <p className='homepage-paragraph'>Pair flavorful pork tenderloin katsu with  quintessential Japanese curry
+             made using a rich vegetable broth and warm curry spices. There’s a reason this combo is so common in Japan!
+        </p>
         </div>     
     </Col>
     <Col md={6}>

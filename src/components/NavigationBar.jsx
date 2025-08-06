@@ -5,15 +5,12 @@ import katsuLogo from '../../assets/Logo.png'
 import '../../katsu.css'
 
 export default function NavigationBar() {
-    const navigate = useNavigate();
-
     function handleOrder() {
         window.location.href = 'https://kingpin-katsu.square.site/s/order'; 
     }    
     return (
         <Navbar className="my-katsu-navbar"  expand="lg">
             <Container>
-                {/* logo that links to homepage */}
                 <Navbar.Brand>
                 <img
                     src={katsuLogo}

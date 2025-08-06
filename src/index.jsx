@@ -9,7 +9,6 @@ import About from './components/About';
 import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-//create root and render the app
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
